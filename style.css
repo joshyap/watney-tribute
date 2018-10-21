@@ -1,0 +1,18 @@
+#image {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+#img-div {        
+    display: grid;
+    align-items: center;
+}
+
+#image {
+    width: 90vw;
+    max-width: 1066px;
+}
+
+#title, #img-caption {
+    text-align: center;
+}
