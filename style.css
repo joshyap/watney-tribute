@@ -1,3 +1,7 @@
+body {
+    font-family: arial;
+}
+
 #image {
     width: 90vw;
     margin: 0 auto;
@@ -15,4 +19,8 @@
 
 #title, #img-caption {
     text-align: center;
+}
+
+#timeline {
+    margin: 0 15% 0 15%;
 }
