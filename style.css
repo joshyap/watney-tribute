@@ -1,5 +1,6 @@
 body {
-    font-family: arial;
+    font-family: arial;    
+    background-color: #ECECEC;
 }
 
 #image {
@@ -14,13 +15,20 @@ body {
 
 #image {
     width: 90vw;
-    max-width: 1066px;
+    max-width: 900px;
+    border: 5px solid black;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #title, #img-caption {
     text-align: center;
 }
 
-#timeline {
-    margin: 0 15% 0 15%;
+#timeline, #more-info {
+    margin: 0 17% 0 17%;
+}
+
+#more-info {
+    text-align: center;
 }
